@@ -41,7 +41,7 @@ sleep 2
 clear; exit 1
 }
 }
-echo -e "\033[1;32m
+echo -e "\033[0;32m
      ╔╗╔╔═╗╔╦╗  ╦ ╦╔═╗╦═╗╦  ╔╦╗  ╔═╗╔═╗╦ ╦
      ║║║║╣  ║   ║║║║ ║╠╦╝║   ║║  ╚═╗╚═╗╠═╣
      ╝╚╝╚═╝ ╩   ╚╩╝╚═╝╩╚═╩═╝═╩╝  ╚═╝╚═╝╩ ╩"
@@ -49,8 +49,8 @@ echo -e "\033[1;37m════════════════════�
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "SEJA MUITO BEM VINDO (A)" ; tput sgr0
 echo -e "\033[1;37m════════════════════════════════════════════════════\033[0m"
 echo ""
-echo -e "                  \033[1;31m⚠️ ATENÇÃO ⚠️"
-echo -e "                \033[1;33mESSE SCRIPT IRÁ !\033[0m"
+echo -e "                  \033[1;31m⚠️ ATENÇÃO ⚠️ "
+echo -e "                 \033[1;33mESSE SCRIPT IRÁ !\033[0m"
 echo ""
 echo -e "\033[1;31m• \033[1;33mINSTALAR UM CONJUNTO DE SCRIPTS COMO FERRAMENTAS!\033[0m"
 echo -e "\033[1;31m• \033[1;33mPARA O GERENCIAMENTO DE REDE, SISTEMA E USUÁRIOS!\033[0m"
