@@ -25,11 +25,11 @@ touch /var/www/html/_S_script/index.html
 echo -e " "
 # INSTALL ARQUIVOS
 echo -e "\033[1;33m INSTALL ARQUIVOS... \033[1;32mAGUARDE"
-wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/Plus -O /var/www/html/Plus > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/list -O /home/list > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/versao -O /home/versao > /dev/null 2>&1 && cat /home/versao >/var/www/html/script/versao
+wget https://raw.githubusercontent.com/Jeffssha/NET-WORLD/main/SSHPLUS/Plus -O /var/www/html/Plus > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Jeffssha/NET-WORLD/main/SSHPLUS/instalador/list -O /home/list > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Jeffssha/NET-WORLD/main/SSHPLUS/instalador/versao -O /home/versao > /dev/null 2>&1 && cat /home/versao >/var/www/html/script/versao
 wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/keyssh -O /bin/keyssh > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Jeffssha/NET-WORLD/main/SSHPLUS/instalador/stunnel.pem -O /var/www/html/script/stunnel.pem > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Jeffssha/NET-WORLD/main/SSHPLUS/instalador/stunnel.pem > /dev/null 2>&1
 wget https://raw.githubusercontent.com/Jeffssha/NET-WORLD/main/SSHPLUS/modulos/otimizar -O /bin/otimizar > /dev/null 2>&1
 echo -e " "
 # PERMISOS ARQUIVOS
@@ -63,7 +63,7 @@ apt-get install unzip -y > /dev/null 2>&1
 apt-get install curl -y > /dev/null 2>&1
 [[ ! -d /var/www/html/_S_script ]] && mkdir /var/www/html/_S_script
 cd /var/www/html/_S_script
-wget https://www.dropbox.com/h?preview=sshplus-v32.zip > /dev/null 2>&1
+wget https://www.dropbox.com/s/18e3mr16irob7mq/networld.zip > /dev/null 2>&1
 unzip modulos.zip > /dev/null 2>&1
 rm -rf modulos.zip
 cd
