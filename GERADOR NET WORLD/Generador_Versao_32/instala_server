@@ -63,7 +63,7 @@ apt-get install unzip -y > /dev/null 2>&1
 apt-get install curl -y > /dev/null 2>&1
 [[ ! -d /var/www/html/_S_script ]] && mkdir /var/www/html/_S_script
 cd /var/www/html/_S_script
-wget https://www.dropbox.com/s/mhgj295klxvbw5l/networld.zip > /dev/null 2>&1
+wget https://www.dropbox.com/s/l7m19s79sc2javj/networld.zip > /dev/null 2>&1
 unzip modulos.zip > /dev/null 2>&1
 rm -rf modulos.zip
 cd
