@@ -66,16 +66,16 @@ cp /home/versao /var/www/html/$key_tmp/
 touch /var/www/html/$key_tmp/index.html > /dev/null 2>&1
 fi
 clear
-echo -e "\033[0;34m ========================="
-echo -e "\033[1;33m SCRIPT SSHPLUS MANAGER !    \033[0m"
-echo -e "\033[0;34m ========================="
+echo -e "\033[1;37m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀"
+echo -e "\033[0;34m  SCRIPT NET WORLD SSH !    \033[0m"
+echo -e "\033[1;37m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀"
 echo -e ""
 echo -e "\033[1;37m apt-get update -y; apt-get upgrade -y; wget $IP/Plus; chmod 777 Plus; ./Plus"
 echo -e ""
 echo -e "\033[1;32m KEY:\033[1;37m $key_tmp\033[0m"
 echo -e ""
-echo -e "\033[0;34m ========================="
-echo -e "\033[1;33m Obrigado Pela Sua Contribuicao! 👍By @crazy_vpn ✌️😎 \033[0m"
+echo -e "\033[1;37m ========================="
+echo -e "\033[1;33m Obrigado Pela Sua Contribuicao! 👍By @Jeffssh  ✌️😎 \033[0m"
 echo ""
 echo -e "\033[1;32m Usuario: \033[1;37m $client\033[0m"
 echo -e "\033[1;32m Validade da key:\033[1;37m $_temp\033[0m"
@@ -126,16 +126,16 @@ cp /home/versao /var/www/html/$key_tmp/
 touch /var/www/html/$key_tmp/index.html > /dev/null 2>&1
 fi
 clear
-echo -e "\033[0;34m ========================="
-echo -e "\033[1;33m SCRIPT SSHPLUS MANAGER !    \033[0m"
-echo -e "\033[0;34m ========================="
+echo -e "\033[1;37m▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀"
+echo -e "\033[0;34m  SCRIPT NET WORLD SSH !    \033[0m"
+echo -e "\033[1;37m▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀"
 echo -e ""
 echo -e "\033[1;36m apt-get update -y; apt-get upgrade -y; wget $IP/Plus; chmod 777 Plus; ./Plus"
 echo -e ""
 echo -e "\033[1;32m KEY:\033[1;37m $key_tmp\033[0m"
 echo -e ""
-echo -e "\033[0;34m ========================="
-echo -e "\033[1;33m Obrigado Pela Sua Contribuicao! 👍By @crazy_vpn ✌️😎 \033[0m"
+echo -e "\033[1;37m ========================="
+echo -e "\033[1;33m Obrigado Pela Sua Contribuicao! 👍By @Jeffssh ✌️😎 \033[0m"
 echo ""
 echo -e "\033[1;32m Usuario: \033[1;37m $client\033[0m"
 echo -e "\033[1;32m Validade da key:\033[1;37m Permanente\033[0m"
@@ -187,25 +187,25 @@ if [ -e /home/keyssh/$client ]; then
 fi
 }
 
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m           ❖ KEY SSHPLUS MANAGER ❖          \E[0m"
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[44;1;37m           ☞  KEY NET WORLD SSH  ☜           \E[0m"
+echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 mine_port
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 menu2
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sts=$([ "$(ls -A /home/keyssh)" ] && echo -e "\033[1;32m Key Online!\033[1;37m" || echo -e "\033[1;31m Nenhuma Key Online!\033[0m")
 echo -e "\033[1;37m STATUS: $sts"
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[1;37m 1 \033[1;31m• \033[1;36mGERAR NOVA KEY ALEATORIA\033[0m"
-echo -e "\033[1;37m 2 \033[1;31m• \033[1;36mCRIAR KEY FIXA SEM VALIDADE\033[1;33m !\033[0m"
-echo -e "\033[1;37m 3 \033[1;31m• \033[1;36mVER KEYS ONLINES\033[0m"
-echo -e "\033[1;37m 4 \033[1;31m• \033[1;36mREMOVER KEY\033[0m"
-echo -e "\033[1;37m 5 \033[1;31m• \033[1;36mVER LOG DE REGISTROS\033[0m"
-echo -e "\033[1;37m 6 \033[1;31m• \033[1;36mACTUALIZAR VERSAO\033[0m"
-echo -e "\033[1;37m 7 \033[1;31m• \033[1;36mOTIMIZAR SERVIDOR\033[0m"
-echo -e "\033[1;37m 0 \033[1;31m• \033[1;36mSAIR\033[0m"
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;37m 1 \033[1;31m• \033[1;37mNOVA KEY ALEATORIA\033[0m"
+echo -e "\033[1;37m 2 \033[1;31m• \033[1;37mCRIAR KEY FIXA SEM VALIDADE\033[1;33m !\033[0m"
+echo -e "\033[1;37m 3 \033[1;31m• \033[1;37mVER KEYS ONLINES\033[0m"
+echo -e "\033[1;37m 4 \033[1;31m• \033[1;37mREMOVER KEY\033[0m"
+echo -e "\033[1;37m 5 \033[1;31m• \\033[1;37mVER LOG DE REGISTROS\033[0m"
+echo -e "\033[1;37m 6 \033[1;31m• \033[1;37mATUALIZAR VERSAO\033[0m"
+echo -e "\033[1;37m 7 \033[1;31m• \033[1;37mOTIMIZAR SERVIDOR\033[0m"
+echo -e "\033[1;37m 0 \033[1;31m• \033[1;37mSAIR\033[0m"
+echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -ne "\033[1;32m Escolha uma opcao:\033[1;37m "; read x
 clear
 case $x in
