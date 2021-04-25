@@ -5,9 +5,9 @@
 
 -------------------------------------------------------------------------------
 
-**Generador De Key**
+**Gerador De Key ssh**
 
-## :heavy_exclamation_mark: Requerimientos
+## :heavy_exclamation_mark: Requesitos
 
 * Um sistema operacional baseado em Linux (Ubuntu ou Debian)
 * Recomenda-se usar uma distro nova ou formatada
