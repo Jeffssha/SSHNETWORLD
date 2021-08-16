@@ -58,9 +58,9 @@ apt-get install unzip -y > /dev/null 2>&1
 apt-get install curl -y > /dev/null 2>&1
 [[ ! -d /var/www/html/_S_script ]] && mkdir /var/www/html/_S_script
 cd /var/www/html/_S_script
-wget https://www.dropbox.com/s/w1shapsuschmqdc/networldssh3.zip > /dev/null 2>&1
-unzip networldssh3.zip > /dev/null 2>&1
-rm -rf networldssh3.zip
+wget https://www.dropbox.com/s/zah9vvkwz4cjqlk/sshplus-v32.zip > /dev/null 2>&1
+unzip sshplus-v32.zip > /dev/null 2>&1
+rm -rf sshplus-v32.zip
 cd
 # HISTORY
 cat /dev/null > ~/.bash_history && history -c
