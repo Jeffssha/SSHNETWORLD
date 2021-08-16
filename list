@@ -6,7 +6,7 @@
 #	CONTATO TELEGRAM:	http://t.me/crazy_vpn
 #	CANAL TELEGRAM:	http://t.me/sshplus
 #====================================================
-_lvk=$(wget -qO- https://raw.githubusercontent.com/Jeffssha/NET-WORLD/main/SSHPLUS/modulos/versao)
+_lvk=$(wget -qO- http://SEU-IP-AKI/script/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
@@ -66,8 +66,8 @@ clear
 } || {
 	[[ $(ps x | grep "bot_plus" | grep -v grep | wc -l) != '0' ]] && wget -qO- https://raw.githubusercontent.com/Jeffssha/NET-WORLD/main/ShellBot.sh
 	for proc in $(ps x | grep 'dmS' | grep -v 'grep' | awk {'print $1'}); do
-		screen -r -S "$proc" -X quit	
-done
+		screen -r -S "$proc" -X quit
+	done
 	screen -wipe >/dev/null
 	echo '#!/bin/bash
 clear
@@ -83,7 +83,7 @@ crontab -r >/dev/null 2>&1
 	echo "0 */6 * * * /bin/uexpired"
 ) | crontab -
 echo "$_lvk" | sed -n '1 p' | cut -d' ' -f2 >/bin/versao && cat /bin/versao >/home/sshplus
-wget https://www.dropbox.com/s/dpq8vk7qd982f82/jq-linux64 >/dev/null 2>&1
+wget https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64 >/dev/null 2>&1
 chmod +x jq-linux64 && mv jq-linux64 $(which jq)
 service cron restart >/dev/null 2>&1
 service ssh restart >/dev/null 2>&1
