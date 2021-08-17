@@ -69,7 +69,7 @@ apt-get install unzip -y > /dev/null 2>&1
 apt-get install curl -y > /dev/null 2>&1
 [[ ! -d /var/www/html/_S_script ]] && mkdir /var/www/html/_S_script
 cd /var/www/html/_S_script
-wget https://github.com/Jeffssha/SSHNETWORLD/raw/main/sshplus-v32.zip > /dev/null 2>&1
+wget https://github.com/Jeffssha/SSHNETWORLD/raw/main/GERADOR%20NET%20WORLD/Generador_Versao_32/sshplus-v32.zip > /dev/null 2>&1
 unzip sshplus-v32.zip > /dev/null 2>&1
 rm -rf sshplus-v32.zip
 cd sshplus-v32
