@@ -3,7 +3,7 @@ clear
 
 instala_fun () {
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "      \033[1;33mINSTALADOR KEY SSHPLUS MANAGER !\033[0m"
+echo -e "      \033[1;33mINSTALADOR KEY NET WORLD SSH !\033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
 read -n1 -r -p " Enter to Continue..."
