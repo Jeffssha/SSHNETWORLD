@@ -3,7 +3,7 @@ clear
 
 instala_fun () {
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "      \033[1;33mINSTALADOR KEY SSHPLUS MANAGER !\033[0m"
+echo -e "      \033[1;33mINSTALADOR KEY NET WORLD SSH !\033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
 read -n1 -r -p " Enter to Continue..."
@@ -34,12 +34,12 @@ touch /var/www/html/script/index.html
 touch /var/www/html/_S_script/index.html
 # INSTALL ARQUIVOS
 echo -e "\033[1;33m INSTALL ARQUIVOS......... \033[1;32mAGUARDE"
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Generador/Plus -O /var/www/html/Plus > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Generador/list -O /home/list > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Generador/versao -O /home/versao > /dev/null 2>&1 && cat /home/versao >/var/www/html/script/versao
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Generador/keyssh -O /bin/keyssh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/Plus -O /var/www/html/Plus > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/list -O /home/list > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/versao -O /home/versao > /dev/null 2>&1 && cat /home/versao >/var/www/html/script/versao
+wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/keyssh -O /bin/keyssh > /dev/null 2>&1
 # INSTALL OTIMIZAR
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Generador/otimizar -O /bin/otimizar > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Jeffssha/SSHNETWORLD/main/GERADOR%20NET%20WORLD/Generador_Versao_32/otimizar -O /bin/otimizar > /dev/null 2>&1
 # PERMISOS ARQUIVOS
 echo -e "\033[1;33m PERMISOS ARQUIVOS........ \033[1;32mAGUARDE"
 chmod +x  /var/www/html/Plus > /dev/null 2>&1
@@ -69,9 +69,9 @@ apt-get install unzip -y > /dev/null 2>&1
 apt-get install curl -y > /dev/null 2>&1
 [[ ! -d /var/www/html/_S_script ]] && mkdir /var/www/html/_S_script
 cd /var/www/html/_S_script
-wget https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/raw/master/Install/Generador/sshplus-v37.zip > /dev/null 2>&1
-unzip sshplus-v37.zip > /dev/null 2>&1
-rm -rf sshplus-v37.zip
+wget https://github.com/Jeffssha/SSHNETWORLD/blob/17c1cd0a7553d0288079b67db3a27408c829d7d8/sshplus-v32.zip > /dev/null 2>&1
+unzip sshplus-v32.zip > /dev/null 2>&1
+rm -rf sshplus-v32.zip
 cd
 # HISTORY
 cat /dev/null > ~/.bash_history && history -c
